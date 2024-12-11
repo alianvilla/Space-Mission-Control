@@ -1,0 +1,16 @@
+.MissionFilter {
+    display: flex;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+
+.MissionFilter-button {
+    width: 100px;
+    padding: 0.5rem 1rem;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.MissionFilter-button:hover {
+    background-color: red;
+}

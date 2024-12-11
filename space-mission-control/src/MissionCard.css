@@ -1,0 +1,15 @@
+.MissionCard {
+    display: flex;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.MissionCard-info {
+    display: grid;
+    margin: 1rem;
+}
+
+.MissionCard-status {
+    height: 0.1px;
+}

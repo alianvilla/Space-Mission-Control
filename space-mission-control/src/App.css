@@ -1,0 +1,23 @@
+
+.App-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff, #ff0000);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorWave 3s infinite linear;
+    margin: 20px;
+        
+}
+
+@keyframes colorWave {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

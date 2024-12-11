@@ -1,0 +1,16 @@
+.MissionAction {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.MissionAction-button {
+    padding: 0.5rem 1rem;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.MissionAction-button:hover {
+    background-color: green;
+}
